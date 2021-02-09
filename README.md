@@ -1,7 +1,7 @@
 # MeetMyPet
 ![image de chien](./meetmypet/public/image/modal1.jpg)
 
-L'application qui met en relation les animaux et leurs maîtres et maîtresses 
+**L'application qui met en relation les animaux et leurs maîtres et maîtresses**
 
 ## Résumé du cahier des charges 
 
@@ -40,11 +40,11 @@ Meet My Pet s’adresse à tous les propriétaires d’animaux, plus particuliè
 
 ## Rôles utilisateurs de l'application 
 
-- Utilisateur non connecté
+- *Utilisateur non connecté*
   
 Un visiteur a accès à la page d’accueil en tant qu’utilisateur non connecté. Il peut y voir les 8 derniers animaux inscrits ainsi qu’une carte interactive (géolocalisée s’il l’accepte) avec tous les marqueurs des groupes créés. Il a la possibilité de cliquer sur le marqueur de son choix pour voir les principales informations du groupe. Il peut être informé du fonctionnement de l’application en un clic dans le header, qui ouvrira une modale explicative en 3 étapes. Un visiteur a accès aux formulaires d’inscription ou de connexion pour avoir accès à toutes les fonctionnalités du site.
 
-- Utilisateur connecté
+- *Utilisateur connecté*
   
 Les fonctionnalités sont identiques à celles ci-dessus avec un header dynamique ainsi que les marqueurs de la carte : selon les groupes dont il est membre ou non, l’utilisateur connecté pourra aller sur la page du groupe ou bien le rejoindre.
 
