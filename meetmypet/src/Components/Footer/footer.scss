@@ -1,0 +1,52 @@
+@import '../../styles/index.scss';
+
+.footer {
+    width: 100vw;
+    height: 201px;
+    background-color: $thirdColor;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+i.inverted.circular.teal.icon{
+    background-color: $primaryColor !important;
+}
+.footer-link{
+    margin: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+.footer-link:hover{
+    color: $primaryColor;
+}
+
+.footer-content-mid{
+    margin: 20px 0 20px 0;
+}
+.footer-tableNavBar-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 0 0.9rem;
+}
+.footer-adds{
+    color: rgb(187, 187, 187);
+    font-size: 1em;
+
+}
+.RS{
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+}
+@media screen and (max-width: 900px) {
+    .footer-tableNavBar{
+        display: none;
+    }
+}

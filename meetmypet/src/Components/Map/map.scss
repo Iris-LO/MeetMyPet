@@ -1,0 +1,28 @@
+@import '../../styles/index.scss';
+
+#map { 
+    height: 400px;
+    width: 100%;
+    margin: 10px auto;
+    // padding-top: 72px;
+};
+.leaflet-top, .leaflet-bottom{
+    z-index:900;
+}
+.leaflet-container {
+    height: 400px;
+
+}
+.leaflet-top {
+    z-index: 500;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 559px) {
+    #map {
+        // width: 90%;
+    }
+}

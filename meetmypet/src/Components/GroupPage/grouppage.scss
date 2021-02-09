@@ -1,0 +1,138 @@
+@import '../../styles/index.scss';
+
+.groupPage{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    background-color: $secondaryColor;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+// Infos Part 
+
+.infos-grp{
+    padding-top: 100px;
+    width: 25vw;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid $primaryColor;
+    overflow-y: scroll;
+    left: 0;
+    margin-bottom: 10px;
+
+}
+.infos-grp-ville{
+    text-align: center;
+    font-size: 2em;
+}
+.memberNumber{
+    text-align: center;
+}
+.map{
+    height: 100%;
+    width: 350px;
+    margin: 0 auto;
+}
+.infos-grp-title{
+    padding-bottom: 20px; 
+    color: black;
+}
+.info-grp-description{
+    text-align: left;
+    font-size: 1.1em;
+    padding: 10px 10px;
+
+}
+// Chat Part
+
+.chat-part{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.messages{
+    width: 75vw;
+    height: auto;
+    color: $secondaryColor;
+    text-align: left;
+    margin-left: 20px;
+    overflow-y: scroll;
+}
+.message{
+    color: black;
+    font-size:20px;
+    width: 50%;
+    height: auto;
+    background-color: $primaryColor;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+.message-img{
+    display: flex;
+    padding-top: 10px;
+}
+
+.message-author{
+font-size: 1.1em;
+padding-bottom: 10px;
+font-weight: bold;
+}
+.message-author-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.message-content{
+    color: $secondaryColor;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-left: 30px;
+}
+.sendAt{
+    font-size: 0.6em;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.iconChatResponsive{
+    display:none
+}
+
+@media screen and (max-width: 1200px){
+    .groupPage{
+        width: 100%;
+        height: 100%;
+    }
+    .infos-grp{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: unset;
+        padding-bottom:100px ;
+    }
+    .map{
+        padding:20px 0 ;
+    }
+
+    .chat-part{
+        display: none;
+    }
+    .iconChatResponsive{
+        display:initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+}

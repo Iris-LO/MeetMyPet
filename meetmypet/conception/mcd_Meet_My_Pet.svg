@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="487" height="449" view_box="0 0 487 449"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 13 Oct 2020 05:44:14</desc>
+
+<rect id="frame" x="0" y="0" width="487" height="449" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association AUTHORIZE -->
+<line x1="79" y1="72" x2="79" y2="225" stroke="#e08214" stroke-width="1.5"/>
+<text x="85.0" y="152" fill="#542788" font-family="Arial" font-size="12">0,1</text>
+<line x1="79" y1="395" x2="79" y2="225" stroke="#e08214" stroke-width="1.5"/>
+<text x="85.0" y="341" fill="#542788" font-family="Arial" font-size="12">1,1</text>
+<g id="association-AUTHORIZE">
+	<path d="M 118 197 a 14 14 90 0 1 14 14 V 224 h -106 V 211 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 132 224.0 v 15 a 14 14 90 0 1 -14 14 H 40 a 14 14 90 0 1 -14 -14 V 224.0 H 106" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="26" y="197" width="106" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="26" y1="224" x2="132" y2="224" stroke="#e08214" stroke-width="1.5"/>
+	<text x="35" y="217.3" fill="#000000" font-family="Arial Black" font-size="13">AUTHORIZE</text>
+</g>
+
+<!-- Association FEED -->
+<line x1="429" y1="225" x2="429" y2="395" stroke="#e08214" stroke-width="1.5"/>
+<text x="435.0" y="341" fill="#542788" font-family="Arial" font-size="12">1,1</text>
+<line x1="321" y1="395" x2="429" y2="395" stroke="#e08214" stroke-width="1.5"/>
+<text x="371" y="412.0" fill="#542788" font-family="Arial" font-size="12">0,N</text>
+<g id="association-FEED">
+	<path d="M 444 367 a 14 14 90 0 1 14 14 V 394 h -58 V 381 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 458 394.0 v 15 a 14 14 90 0 1 -14 14 H 414 a 14 14 90 0 1 -14 -14 V 394.0 H 58" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="400" y="367" width="58" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="400" y1="394" x2="458" y2="394" stroke="#e08214" stroke-width="1.5"/>
+	<text x="409" y="387.3" fill="#000000" font-family="Arial Black" font-size="13">FEED</text>
+</g>
+
+<!-- Association HAVE A -->
+<line x1="79" y1="72" x2="212" y2="72" stroke="#e08214" stroke-width="1.5"/>
+<text x="128" y="89.0" fill="#542788" font-family="Arial" font-size="12">0,1</text>
+<line x1="212" y1="225" x2="212" y2="72" stroke="#e08214" stroke-width="1.5"/>
+<text x="188.0" y="117" fill="#542788" font-family="Arial" font-size="12">1,1</text>
+<g id="association-HAVE A">
+	<path d="M 235 44 a 14 14 90 0 1 14 14 V 71 h -74 V 58 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 249 71.0 v 15 a 14 14 90 0 1 -14 14 H 189 a 14 14 90 0 1 -14 -14 V 71.0 H 74" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="175" y="44" width="74" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="175" y1="71" x2="249" y2="71" stroke="#e08214" stroke-width="1.5"/>
+	<text x="184" y="64.3" fill="#000000" font-family="Arial Black" font-size="13">HAVE A</text>
+</g>
+
+<!-- Association CREATE -->
+<line x1="429" y1="225" x2="321" y2="72" stroke="#e08214" stroke-width="1.5"/>
+<text x="353" y="166.136996778" fill="#542788" font-family="Arial" font-size="12">0,N</text>
+<line x1="212" y1="225" x2="321" y2="72" stroke="#e08214" stroke-width="1.5"/>
+<text x="262" y="173.740748791" fill="#542788" font-family="Arial" font-size="12">1,1</text>
+<g id="association-CREATE">
+	<path d="M 346 44 a 14 14 90 0 1 14 14 V 71 h -78 V 58 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 360 71.0 v 15 a 14 14 90 0 1 -14 14 H 296 a 14 14 90 0 1 -14 -14 V 71.0 H 78" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="282" y="44" width="78" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="282" y1="71" x2="360" y2="71" stroke="#e08214" stroke-width="1.5"/>
+	<text x="291" y="64.3" fill="#000000" font-family="Arial Black" font-size="13">CREATE</text>
+</g>
+
+<!-- Association LIST -->
+<line x1="212" y1="225" x2="321" y2="225" stroke="#e08214" stroke-width="1.5"/>
+<text x="262" y="242.0" fill="#542788" font-family="Arial" font-size="12">0,N</text>
+<line x1="429" y1="225" x2="321" y2="225" stroke="#e08214" stroke-width="1.5"/>
+<text x="353" y="242.0" fill="#542788" font-family="Arial" font-size="12">1,N</text>
+<g id="association-LIST">
+	<path d="M 333 197 a 14 14 90 0 1 14 14 V 224 h -52 V 211 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 347 224.0 v 15 a 14 14 90 0 1 -14 14 H 309 a 14 14 90 0 1 -14 -14 V 224.0 H 52" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="295" y="197" width="52" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="295" y1="224" x2="347" y2="224" stroke="#e08214" stroke-width="1.5"/>
+	<text x="304" y="217.3" fill="#000000" font-family="Arial Black" font-size="13">LIST</text>
+</g>
+
+<!-- Association SEND -->
+<line x1="321" y1="395" x2="212" y2="395" stroke="#e08214" stroke-width="1.5"/>
+<text x="250" y="412.0" fill="#542788" font-family="Arial" font-size="12">0,N</text>
+<line x1="212" y1="225" x2="212" y2="395" stroke="#e08214" stroke-width="1.5"/>
+<text x="218.0" y="341" fill="#542788" font-family="Arial" font-size="12">1,1</text>
+<g id="association-SEND">
+	<path d="M 228 367 a 14 14 90 0 1 14 14 V 394 h -60 V 381 a 14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+	<path d="M 242 394.0 v 15 a 14 14 90 0 1 -14 14 H 196 a 14 14 90 0 1 -14 -14 V 394.0 H 60" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+	<rect x="182" y="367" width="60" height="56" fill="none" rx="14" stroke="#e08214" stroke-width="3"/>
+	<line x1="182" y1="394" x2="242" y2="394" stroke="#e08214" stroke-width="1.5"/>
+	<text x="191" y="387.3" fill="#000000" font-family="Arial Black" font-size="13">SEND</text>
+</g>
+
+<!-- Entity AUTHORIZATION -->
+<g id="entity-AUTHORIZATION">
+	<g id="frame-AUTHORIZATION">
+		<rect x="9" y="350" width="140" height="28" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<rect x="9" y="378.0" width="140" height="62" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="9" y="350" width="140" height="90" fill="none" stroke="#8073ac" stroke-width="3"/>
+		<line x1="9" y1="378" x2="149" y2="378" stroke="#8073ac" stroke-width="1.5"/>
+	</g>
+	<text x="17" y="370.3" fill="#000000" font-family="Arial Black" font-size="13">AUTHORIZATION</text>
+	<text x="17" y="394.2" fill="#000000" font-family="Arial" font-size="14">cgu</text>
+	<text x="17" y="412.2" fill="#000000" font-family="Arial" font-size="14">cookies</text>
+	<text x="17" y="430.2" fill="#000000" font-family="Arial" font-size="14">localisation</text>
+</g>
+
+<!-- Entity MESSAGE -->
+<g id="entity-MESSAGE">
+	<g id="frame-MESSAGE">
+		<rect x="277" y="359" width="88" height="28" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<rect x="277" y="387.0" width="88" height="44" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="277" y="359" width="88" height="72" fill="none" stroke="#8073ac" stroke-width="3"/>
+		<line x1="277" y1="387" x2="365" y2="387" stroke="#8073ac" stroke-width="1.5"/>
+	</g>
+	<text x="285" y="379.3" fill="#000000" font-family="Arial Black" font-size="13">MESSAGE</text>
+	<text x="285" y="403.2" fill="#000000" font-family="Arial" font-size="14">content</text>
+	<text x="285" y="421.2" fill="#000000" font-family="Arial" font-size="14">send_at</text>
+</g>
+
+<!-- Entity GROUP -->
+<g id="entity-GROUP">
+	<g id="frame-GROUP">
+		<rect x="380" y="126" width="98" height="28" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<rect x="380" y="154.0" width="98" height="170" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="380" y="126" width="98" height="198" fill="none" stroke="#8073ac" stroke-width="3"/>
+		<line x1="380" y1="154" x2="478" y2="154" stroke="#8073ac" stroke-width="1.5"/>
+	</g>
+	<text x="402" y="146.3" fill="#000000" font-family="Arial Black" font-size="13">GROUP</text>
+	<text x="388" y="170.2" fill="#000000" font-family="Arial" font-size="14">name</text>
+	<text x="388" y="188.2" fill="#000000" font-family="Arial" font-size="14">latitude</text>
+	<text x="388" y="206.2" fill="#000000" font-family="Arial" font-size="14">longitude</text>
+	<text x="388" y="224.2" fill="#000000" font-family="Arial" font-size="14">city</text>
+	<text x="388" y="242.2" fill="#000000" font-family="Arial" font-size="14">address</text>
+	<text x="388" y="260.2" fill="#000000" font-family="Arial" font-size="14">country</text>
+	<text x="388" y="278.2" fill="#000000" font-family="Arial" font-size="14">description</text>
+	<text x="388" y="296.2" fill="#000000" font-family="Arial" font-size="14">created_by</text>
+	<text x="388" y="314.2" fill="#000000" font-family="Arial" font-size="14">chatroom_id</text>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="36" y="9" width="86" height="28" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<rect x="36" y="37.0" width="86" height="98" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="36" y="9" width="86" height="126" fill="none" stroke="#8073ac" stroke-width="3"/>
+		<line x1="36" y1="37" x2="122" y2="37" stroke="#8073ac" stroke-width="1.5"/>
+	</g>
+	<text x="58" y="29.3" fill="#000000" font-family="Arial Black" font-size="13">USER</text>
+	<text x="44" y="53.2" fill="#000000" font-family="Arial" font-size="14">first_name</text>
+	<text x="44" y="71.2" fill="#000000" font-family="Arial" font-size="14">city</text>
+	<text x="44" y="89.2" fill="#000000" font-family="Arial" font-size="14">address</text>
+	<text x="44" y="107.2" fill="#000000" font-family="Arial" font-size="14">mail</text>
+	<text x="44" y="125.2" fill="#000000" font-family="Arial" font-size="14">password</text>
+</g>
+
+<!-- Entity ANIMAL -->
+<g id="entity-ANIMAL">
+	<g id="frame-ANIMAL">
+		<rect x="168" y="126" width="88" height="28" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<rect x="168" y="154.0" width="88" height="170" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="168" y="126" width="88" height="198" fill="none" stroke="#8073ac" stroke-width="3"/>
+		<line x1="168" y1="154" x2="256" y2="154" stroke="#8073ac" stroke-width="1.5"/>
+	</g>
+	<text x="183" y="146.3" fill="#000000" font-family="Arial Black" font-size="13">ANIMAL</text>
+	<text x="176" y="170.2" fill="#000000" font-family="Arial" font-size="14">name</text>
+	<text x="176" y="188.2" fill="#000000" font-family="Arial" font-size="14">specie</text>
+	<text x="176" y="206.2" fill="#000000" font-family="Arial" font-size="14">age</text>
+	<text x="176" y="224.2" fill="#000000" font-family="Arial" font-size="14">sex</text>
+	<text x="176" y="242.2" fill="#000000" font-family="Arial" font-size="14">description</text>
+	<text x="176" y="260.2" fill="#000000" font-family="Arial" font-size="14">breed</text>
+	<text x="176" y="278.2" fill="#000000" font-family="Arial" font-size="14">size</text>
+	<text x="176" y="296.2" fill="#000000" font-family="Arial" font-size="14">image</text>
+	<text x="176" y="314.2" fill="#000000" font-family="Arial" font-size="14">chat_id</text>
+</g>
+</svg>

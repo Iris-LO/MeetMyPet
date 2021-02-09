@@ -1,0 +1,42 @@
+@import '../../styles/index.scss';
+.find-group {
+    padding-top: 100px;
+    min-height: calc(100vh - 161px);
+    &-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    &-input {
+        border-radius: $borderRaduisInput;
+        padding: 10px;
+        width: 400px;
+        border: 1px solid $borderColorInput;
+        margin-right: 1em;
+    }
+    &-btn {
+        border-radius: 3px;
+        padding: $paddingBtn;
+        background-color: $colorBtn;
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+}
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 559px) {
+    .find-group {
+        &-form {
+            flex-direction: column;
+            padding: 1em;
+            &-input {
+                width: 100%;
+                margin: 1em 1em;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+
+@import '../../styles/index.scss';
+
+.ui.Form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin: 100px 0;
+}
+label{
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size:1.5;
+    font-weight: bold;
+}
+.ui.btn-connexion{
+    background-color: $primaryColor;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+.ui.btn-connexion:hover{
+    background-color: #18af6e;
+    color: white;
+}
+.btn-signUp{
+    background-color: rgb(236, 76, 76);
+    color: white;
+    font-weight: bold;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+.btn-signUp:hover{
+    color :white;
+    background-color: rgb(241, 48, 48);
+}
+.ui.modal>.actions {
+    background: #fff;
+    padding: 1rem 1rem;
+border-top:none;
+    text-align: right;
+}
+.loginModal-title{
+    padding: 2rem 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.forgotPassword{
+    color: red;
+    font-size: 12px !important;
+    padding: 1rem;
+}
+.loginModal-error {
+    color: red;
+}

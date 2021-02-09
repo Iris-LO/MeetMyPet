@@ -1,0 +1,16 @@
+.formMessage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    &-input{
+        width: 85%;
+        height: 40px;
+    }
+
+    &-submit{
+        width: 15%;
+        height: 40px;
+    }
+}

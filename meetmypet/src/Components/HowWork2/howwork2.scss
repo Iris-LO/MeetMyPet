@@ -1,0 +1,19 @@
+@import '../../styles/index.scss';
+
+.ui.modal{
+    width: 800px;
+    height: 400px !important ;
+    text-align: center;
+}
+.ui.image img{
+    max-width: 400px;
+    max-height: 230px;
+}
+// .ui.image .modal2{
+// max-width: 300px;
+// max-height: 300px;
+// }
+p{
+    text-align: left;
+    font-size: 1.1em;
+}

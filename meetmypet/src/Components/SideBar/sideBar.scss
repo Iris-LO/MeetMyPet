@@ -1,0 +1,33 @@
+@import '../../styles/index.scss';
+
+.navBar-item{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+@media screen and(max-width:1200px){
+    .navBar-item{
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 3rem 0;
+    }
+}
+@media screen and(max-width:900px){
+    .navBar-item{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 3rem 0;
+    }
+}
+.sideBar-animalImage{
+    margin-top: 30%;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}

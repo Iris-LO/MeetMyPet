@@ -1,0 +1,32 @@
+$primaryColor : #7fc6a4;
+// #0f8753 vert initial
+$secondaryColor: #f3f8f2;
+$thirdColor: #515052;
+$borderRadiusCard: 10px;
+$borderRaduisInput: 3px;
+$boxShadowCard: 10px 10px 23px -13px rgba(0,0,0,0.75);
+$paddinBtnCard: 10px;
+$paddingInputCard: 10px;
+$paddingBtn: 11px;
+// $borderColorInput: #D4CB92;
+$borderColorInput: #515052;
+// $colorBtn: #C36F09;
+$colorBtn: #7fc6a4;
+$contentPolice: 'Roboto';
+$paddingCard: 1em;
+
+
+body {
+  margin: 0;
+  font-family: $contentPolice,-apple-system, BlinkMacSystemFont, 'Segoe UI',  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

@@ -1,0 +1,18 @@
+@import '../../styles/index.scss';
+
+.ui.modal{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+.ui.header:first-child{
+    font-size: 1.8em;
+    color: $primaryColor;
+}
+.ui.header+p{
+    font-size: 1.3em;
+    text-align: left;
+}
+p:last-child{
+    font-size: 1.2em;
+}

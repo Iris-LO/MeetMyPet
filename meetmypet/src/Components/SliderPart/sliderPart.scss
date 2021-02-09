@@ -1,0 +1,82 @@
+@import '../../styles/index.scss';
+
+.wrapper{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 600px;
+    padding-top: 20px;
+    background-color: $primaryColor;
+    text-align: center;
+
+    &-card{
+        width: 280px !important;
+        height: 100%;
+    }
+    .slider-title{
+        color: white;
+    }
+}
+.dogCard{
+    margin: 0 auto;
+}
+h3{
+    height:30px
+}
+.card{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-img{
+        min-width: 280px;
+        min-height:300px;
+        max-width: 280px;
+        max-height: 300px;
+    }
+    &-img-content{
+        width: 100%;
+        height: 100%;
+    }
+    &-description{
+        width: 100%;
+        min-height:150px ;
+        max-height: 150px;
+        
+        background-color: $secondaryColor;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        
+    }
+    &-name{
+        color: $primaryColor;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-top: 1rem;
+    }
+    &-breed{
+        font-size: 1em;
+        color: grey;
+    }
+    
+    &-description-text{
+        font-weight: 200;
+        font-size:1em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+p.card-description-text{
+    width: auto;
+    height: 100px;
+    line-height: 1em;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    font-weight: bold;
+
+}

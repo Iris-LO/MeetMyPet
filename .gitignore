@@ -1,0 +1,4 @@
+node_modules/
+.env
+TestsSQL.md
+meetmypet/node_modules/

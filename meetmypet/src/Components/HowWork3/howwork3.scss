@@ -1,0 +1,33 @@
+@import '../../styles/index.scss';
+
+.ui.modal{
+    width: 800px;
+    height: 450px;
+    text-align: center;
+}
+
+
+.modal3-img{
+    max-width: 400px;
+    max-height: 130px;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+h1{
+    color: $primaryColor;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.2em;
+}
+p{
+    text-align: left;
+}
+.interaction{
+    text-align: left;
+    padding-left: 10%;
+    font-size: 1em;
+    font-weight: 200;
+}

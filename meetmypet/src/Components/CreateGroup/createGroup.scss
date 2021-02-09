@@ -1,0 +1,61 @@
+@import '../../styles/index.scss';
+.create-group {
+    padding-top: 80px;
+    &-title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 2em 0 2em 0;
+    }
+    &-inputLabel {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+    &-input {
+        border-radius: $borderRaduisInput;
+        padding: 10px;
+        width: 400px;
+        border: 1px solid $borderColorInput;
+    }
+    &-label {
+        color: #40434E;
+    }
+    &-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-btn {
+        border-radius: $borderRaduisInput;
+        padding: $paddingBtn;
+        background-color: $colorBtn;
+        color: black;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 1em;
+    }
+    
+}
+.create-group-map {
+    width: 90%;
+    position: relative;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 559px) {
+    .create-group {
+        &-input {
+            width: 100%;
+            
+        }
+        &-inputLabel {
+            width: 100%;
+            padding: 1em 1em 1em 1em;
+        }
+    }
+}
