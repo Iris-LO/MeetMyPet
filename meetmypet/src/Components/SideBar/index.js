@@ -79,7 +79,7 @@ const SideBar = ({openModal,handleLogout, isLogged, animalImage}) => {
 
                 <Menu.Item as="a">
                 <Link to="/profil" className="navBar-item" >
-                <img className="sideBar-animalImage" src={`http://ec2-52-86-71-5.compute-1.amazonaws.com:3001/${animalImage}`} alt=""/>
+                <img className="sideBar-animalImage" src={`http://ec2-54-197-74-229.compute-1.amazonaws.com:3001/${animalImage}`} alt=""/>
                 </Link>
                 </Menu.Item>
                 </>

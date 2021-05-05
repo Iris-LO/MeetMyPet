@@ -67,4 +67,4 @@ Partie back (2 personnes) :
 * Déploiement : AWS
 
 
-Le projet est en ligne ici : http://ec2-100-26-211-150.compute-1.amazonaws.com:3000/
+Le projet est en ligne ici : http://ec2-54-197-74-229.compute-1.amazonaws.com:3000/

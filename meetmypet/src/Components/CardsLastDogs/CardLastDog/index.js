@@ -10,7 +10,7 @@ const CardLastDog = ({image, name, description, breed,  }) => {
         <div className="dogCard">
             <div className="card">
                 <div className="card-img">
-                    <img className="card-img-content" src={(image === null) ? `image/dogRetro.jpg` : `http://ec2-100-26-211-150.compute-1.amazonaws.com:3001/${image}`} alt="image de profil" />
+                    <img className="card-img-content" src={(image === null) ? `image/dogRetro.jpg` : `http://ec2-54-197-74-229.compute-1.amazonaws.com:3001/${image}`} alt="image de profil" />
                 </div>
                 <div className="card-description">
                     <h3 className="card-name">{name}</h3>

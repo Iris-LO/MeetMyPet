@@ -1,2 +1,2 @@
-export const baseURL = 'http://ec2-100-26-211-150.compute-1.amazonaws.com:3001';
+export const baseURL = 'http://ec2-54-197-74-229.compute-1.amazonaws.com:3001';
 

@@ -16,7 +16,7 @@ const Message = ({ name, content, owner, image,send_at }) => {
   return(
         <div className={classNames('message', { 'message--owner': owner })}>
         <div className="message-img">
-            <img src={`http://ec2-100-26-211-150.compute-1.amazonaws.com:3001/${image}`} alt="auteur" className="message-author-img"/>
+            <img src={`http://ec2-54-197-74-229.compute-1.amazonaws.com:3001/${image}`} alt="auteur" className="message-author-img"/>
             <div className="message-author">{name}</div>
         </div>
         <div className="message-content">{content}</div>

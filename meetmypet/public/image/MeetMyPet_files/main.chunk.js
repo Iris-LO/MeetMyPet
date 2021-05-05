@@ -6888,7 +6888,7 @@ const setLoadingState = () => ({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "baseURL", function() { return baseURL; });
-const baseURL = 'http://ec2-52-86-71-5.compute-1.amazonaws.com:3001';
+const baseURL = 'http://ec2-54-197-74-229.compute-1.amazonaws.com:3001';
 
 /***/ }),
 

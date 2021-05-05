@@ -28,7 +28,7 @@ server.use(bodyParser.json());
 server.use(cookieParser());
 
 server.use((_, res, next) => {
-	res.header('Access-Control-Allow-Origin', 'http://ec2-100-26-211-150.compute-1.amazonaws.com:3000');
+	res.header('Access-Control-Allow-Origin', 'localhost:3000');
 	res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, x-access-token');
 	res.header('Access-Control-Allow-Credentials', true);
 	res.header('Access-Control-Allow-Methods', 'GET, PATCH, PUT, POST, DELETE, OPTIONS');

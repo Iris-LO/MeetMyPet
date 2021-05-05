@@ -140,7 +140,7 @@ const deleteUser = () => (
         <form action="" className="signUp-card-form" onSubmit={UpdateInfoAnimal} autocomplete="on">
         <p className="signUp-card-sucess">{sucess}</p>
         <p>Prénom de mon maître : {first_name}</p>
-        <img className="profil-image" src={`http://ec2-52-86-71-5.compute-1.amazonaws.com:3001/${animalImage}`} alt=""/>
+        <img className="profil-image" src={`http://ec2-54-197-74-229.compute-1.amazonaws.com:3001/${animalImage}`} alt=""/>
         <InputFile
               name="name"
               placeholder="Photo de profil"
